@@ -1,5 +1,5 @@
 <template>
-  <header class="flex flex-row w-full h-[8vh] fixed top-0 items-center text-primary">
+  <header class="bg-blanc bg-opacity-50 flex flex-row w-full h-[8vh] fixed top-0 items-center text-primary border-b-[1px] border-b-primary">
     <div class="content w-10/12 mx-auto flex flex-row items-center h-full ">
       <nav class="w-1/4 justify-between flex flex-row h-full items-center">
         <router-link to="/">Home</router-link>
@@ -8,11 +8,11 @@
         <router-link to="/">About us</router-link>
       </nav>
       <div class="title w-1/2 justify-center flex flex-row h-full items-center">
-        <h2>Penelope's</h2>
+        <h2 class="font-rainbow text-2xl">Penelope's</h2>
       </div>
-      <div class="others w-1/4 justify-between flex flex-row h-full items-center">
+      <div class="others w-1/5 justify-between flex flex-row h-full items-center">
         <a href="#">Faq</a>
-        <a href="#">Contact</a>
+        <a class="border-primary border-[1px] rounded-full p-2 px-4" href="#">Contact</a>
         <a class="w-[4vh] h-[4vh] bg-primary rounded-full justify-center flex items-center" href="#">
           <svg class="w-[2vh] h-[2vh] text-blanc" width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_16_27)">
@@ -28,5 +28,5 @@
       </div>
     </div>
   </header>
-  <router-view/>
+  <router-view class="bg-blanc"/>
 </template>
