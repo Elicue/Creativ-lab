@@ -1,7 +1,7 @@
 <template>
   <div class="home text-primary bg-blanc h-full">
     <div class="first relative w-full h-[100vh] mt-[8vh] flex flex-col">
-      <div class="flower absolute bottom-[20vh] left-0 flex flex-row">
+      <div class="flower absolute bottom-[15vh] left-0 flex flex-row">
         <div class="img">
           <img class="rounded-br-full rounded-tr-full w-[40vh] h-[25vh] object-cover" src="imgs/flower.jpg" alt="flowers">
         </div>
