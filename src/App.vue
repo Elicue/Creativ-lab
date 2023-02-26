@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-blanc bg-opacity-50 flex flex-row w-full h-[8vh] fixed top-0 items-center text-primary border-b-[1px] border-b-primary">
+  <header class="bg-blanc bg-opacity-50 flex flex-row w-full h-[8vh] fixed top-0 items-center text-primary border-b-[1px] z-[90] border-b-primary">
     <div class="content w-10/12 mx-auto flex flex-row items-center h-full ">
       <nav class="w-1/4 justify-between flex flex-row h-full items-center">
         <router-link to="/">Home</router-link>

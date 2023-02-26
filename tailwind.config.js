@@ -7,6 +7,7 @@ module.exports = {
         blanc:'#F8F5F0',
         noir:'#191919',
         primary:'#421815',
+        rose:'#FFEAE5',
       },
     },
 
